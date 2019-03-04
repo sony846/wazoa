@@ -1,0 +1,348 @@
+@charset "utf-8";
+
+/*컨테이너시작*/
+#container{
+    width:100%;
+}
+
+/*메인슬라이더시작*/
+.mainSlider{
+    height:400px;
+}
+.mainSlider .inner{
+    position:relative;
+}
+.mainSlider img{
+    width:100%;
+    position:absolute;
+    left:50%;
+    margin-left:-600px;
+}
+
+/*mainRow1시작*/
+.mainRow1{
+    padding:50px 0;
+}
+
+/*1*/
+.row1Box1{
+    width:830px;
+    height:182px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.row1Box1_1{
+    width:405px;
+    height:182px;
+    float:left;
+    margin-right:20px;
+    text-align:center;
+    background:url(../../../images/service/mainRow1_1.png) no-repeat;
+}
+.row1Box1_1.margin{
+    margin-right:0;
+    background:url(../../../images/service/mainRow1_2.png) no-repeat;
+}
+.row1Box1_1 a{
+    height:100%;
+    display:block;
+}
+.row1Box1_1 a img{
+    width:100%;
+    display:block;
+}
+.row1Box1_1 a h2{
+    font-size:30px;
+    font-weight:700;
+    line-height:35px;
+    color:#715754;
+    padding-top:59px;
+}
+.mainRow1 .lineHeight h2{
+    padding-top:76px;
+}
+
+/*2*/
+.row1Box2{
+    width:830px;
+    height:182px;
+    margin:0 auto;
+}
+.row1Box1_2{
+    width:405px;
+    height:182px;
+    float:left;
+    margin-right:20px;
+    text-align:center;
+    background:url(../../../images/service/mainRow1_3.png) no-repeat;
+}
+.row1Box1_2.margin{
+    margin-right:0;
+    background:url(../../../images/service/mainRow1_4.png) no-repeat;
+}
+.row1Box1_2 a{
+    height:100%;
+    display:block;
+}
+.row1Box1_2 a img{
+    width:100%;
+    display:block;
+}
+.row1Box1_2 a h2{
+    font-size:30px;
+    font-weight:700;
+    line-height:35px;
+    color:#715754;
+    padding-top:59px;
+}
+
+/*mainRow2시작*/
+.mainRow2{
+    text-align:center;
+    width:1200px;
+    height:1641px;
+    background:#fff4f2;
+    margin:0 auto;
+}
+
+/*row2Box1시작*/
+.row2Box1{}
+.row2Box1 li.row2Title{
+    padding:70px 0;
+}
+.row2Box1 li.row2Icon{
+    padding-bottom:43px;
+}
+.row2Box1 li.row2Text1{
+    font-size:25px;
+    font-weight:700;
+    color:#715754;
+    line-height:35px;
+}
+.row2Box1 li.row2Text2{
+    font-size:20px;
+    font-weight:400;
+    color:#715754;
+    line-height:35px;
+    margin-bottom:101px;
+}
+.row2Box1 li.row2Text3{
+    font-size:25px;
+    font-weight:700;
+    color:#715754;
+    line-height:35px;
+    margin-bottom:101px;
+}
+
+/*mainRow3시작*/
+.mainRow3{
+    text-align:center;
+    height:960px;
+    background:#ffe7e3;
+}
+.row3Box1{}
+
+.row3Box1 li{}
+.row3Box1 li.row3Title{
+    padding:70px 0;
+}
+.row3Box1 li.row3Icon{
+    padding:34px 0;
+}
+.row3Box1 li.row3Text{
+    font-size:32px;
+    font-weight:700;
+    color:#715754;
+    line-height:40px;
+}
+.row3Box1 li.row3Text span{
+    font-size:25px;
+    font-weight:300;
+}
+.row3Box1 li.row3Text2{
+    font-size:18px;
+    font-weight:400;
+    color:#e87468;
+    margin-top:70px;
+}
+.row3Box1 li.row3Text2:after{
+    content:"";
+    display:block;
+    width:470px;
+    height:1px;
+    background:#e87468;
+    margin:0 auto;
+}
+.row3Box1 li.row3Img{
+    width:100%;
+    height:718px;
+    position:relative;
+    overflow:hidden;
+    margin:70px 0;
+}
+.row3Box1 li.row3Img img{
+    position:absolute;
+    right:50%;
+    margin-right:-960px;
+}
+
+
+/*mainrow4시작*/
+.mainRow4{
+    height:3547px;
+    background:#fff4f2;
+    text-align:center;
+}
+
+/*호텔공통*/
+.mainRow4 h2{
+    padding-top:55px;
+    font-size:30px;
+    font-weight:700;
+    line-height:40px;
+    color:#715754;
+}
+.mainRow4 h2 span{
+    font-size:20px;
+    font-weight:400;
+}
+
+.row4Box{
+    margin-top:15px;
+    font-size:0;
+}
+.row4Box li{}
+.row4Box li.hotelLink{
+    font-size:18px;
+    font-weight:400;
+}
+.row4Box li.hotelLink a{
+    color:#e87468;
+}
+.row4Box li.hotelLink a:after{
+    content:"";
+    display:block;
+    width:270px;
+    height:1px;
+    background:#e87468;
+    margin:0 auto;
+    margin-top:5px;
+    margin-bottom:60px;
+}
+.row4Box li.hotelImg{
+    margin-bottom:18px;
+}
+.row4Box li.moreBtn{
+    width:200px;
+    height:50px;
+    border:solid #dea59f;
+    margin:0 auto;
+    margin-top:48px;
+    margin-bottom:70px;
+}
+.row4Box li.moreBtn a{
+    font-size:18px;
+    font-weight:400;
+    line-height:50px;
+    color:#dea59f;
+    width:100%;
+    display:block;
+    transition:all 1s;
+}
+.row4Box li.moreBtn a:hover{
+    background:#dea59f;
+    color:#fff;
+    transition:all 1s;
+}
+
+/*mainrow5시작*/
+.mainRow5{
+    height:2300px;
+    background:#ffe7e3;
+    text-align:center;
+    color:#715754;
+    margin-bottom:60px;
+}
+.row5Box{}
+.row5Box li{}
+.row5Box li.row5Title{
+    padding:55px;
+}
+.row5Box li.row5Text{
+    font-size:30px;
+    font-weight:700;
+    line-height:30px;
+}
+.row5Box li.row5Text span{
+    font-size:18px;
+    font-weight:400;
+}
+.row5Box li.row5Icon{
+    padding:81px 0;
+}
+
+.row5Box2{
+    margin-bottom:81px;
+}
+.row5Box2 li.row5Text2{
+    font-size:30px;
+    font-weight:700;
+    line-height:50px;
+}
+.row5Box2 li.row5Text3{
+    font-size:18px;
+    font-weight:400;
+    line-height:20px;
+    margin-bottom:15px;
+}
+.row5Box2 li.row5Margin{
+    margin-bottom:50px;
+}
+.row5Box2 li.row5Text4{
+    font-size:15px;
+    font-weight:400;
+    color:#e0887e;
+    margin-bottom:60px;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
